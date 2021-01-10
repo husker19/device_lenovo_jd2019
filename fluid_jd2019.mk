@@ -16,13 +16,14 @@
 
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common corvusOS stuff.
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+# Inherit some common FluidOS stuff.
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := corvus_jd2019
+PRODUCT_NAME := fluid_jd2019
 PRODUCT_BRAND := lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := lenovo
@@ -32,6 +33,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.corvus.maintainer="Victor (merser2005)"
-
+    ro.corvus.maintainer=Husker19 \
+    ro.fluid.cpu=SDM710
+    
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
