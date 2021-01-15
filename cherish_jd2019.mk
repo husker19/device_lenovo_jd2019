@@ -35,4 +35,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cherish.maintainer=Husker19
     
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys
