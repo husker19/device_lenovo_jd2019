@@ -157,6 +157,10 @@ PRODUCT_BOOT_JARS += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
+	
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder	
 
 # Overlay
 PRODUCT_PACKAGES += \
