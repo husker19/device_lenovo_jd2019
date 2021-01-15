@@ -31,7 +31,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    GCam
+    Snap
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/com.google.android.apps.cameralite.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.apps.cameralite.xml
