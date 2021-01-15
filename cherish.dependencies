@@ -2,6 +2,6 @@
   {
     "repository" : "vendor_lenovo_jd2019",
     "target_path": "vendor/lenovo/jd2019",
-    "branch": "eleven"
+    "branch": "11"
   }
 ]
