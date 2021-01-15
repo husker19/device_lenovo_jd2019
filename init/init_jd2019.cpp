@@ -55,7 +55,7 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
 void vendor_load_properties()
 {
     // fingerprint
-    property_override("ro.build.description", "redfin-user 11 RD1A.201105.003.A1 6886512 release-keys");
-    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys");
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RD1A.201105.003.A1/6886512:user/release-keys");
+    property_override("ro.build.description", "redfin-user 11 RQ1A.210105.003 7005429 release-keys");
+    property_override("ro.system.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
 }
