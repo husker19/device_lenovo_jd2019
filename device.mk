@@ -31,10 +31,10 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    Snap 
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/com.google.android.apps.cameralite.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.apps.cameralite.xml
+    $(LOCAL_PATH)/configs/org.codeaurora.snapcam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/org.codeaurora.snapcam.xml
 
 # Common init scripts
 PRODUCT_PACKAGES += \
