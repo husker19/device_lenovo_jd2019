@@ -25,6 +25,18 @@
 
 	<!-- Set the automatic brightness mode on by default -->
     <bool name="def_screen_brightness_automatic_mode">false</bool>
+	
+	<!-- Set mobile data on by default -->
+    <bool name="def_mobile_data_always_on">false</bool>
+	
+	<!-- Set charging vibration on by default -->  
+    <bool name="def_charging_vibration_enabled">true</bool>
+	
+	<!-- Set charging sounds on by default -->  
+    <bool name="def_charging_sounds_enabled">true</bool>
+	
+	<!-- Enable notification bubbles by default -->
+    <bool name="def_notification_bubbles">true</bool>
 
 	<!-- Default screen brightness, from 0 to 255. 82 is 32%. -->
     <integer name="def_screen_brightness">70</integer>
