@@ -95,3 +95,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.blurs_are_expensive=1 \
     debug.sf.latch_unsignaled=1 \
     debug.sf.disable_backpressure=1
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1
