@@ -22,6 +22,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS := true
 
+#BUILD_WITH_OPLAUNCHER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_jd2019
 PRODUCT_BRAND := lenovo
@@ -30,5 +32,5 @@ PRODUCT_MANUFACTURER := lenovo
 PRODUCT_MODEL := Lenovo Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
-    
+
 BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys
