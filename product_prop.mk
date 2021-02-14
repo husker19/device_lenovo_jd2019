@@ -1,6 +1,7 @@
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-   ro.sf.lcd_density=440
+   ro.sf.lcd_density=440 \
+   sys.display-size=3840x2160
 
 # FM
 PRODUCT_PRODUCT_PROPERTIES += \
